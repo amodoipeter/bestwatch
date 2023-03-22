@@ -1,0 +1,47 @@
+{% extends 'index.html' %}
+
+{% block search %}
+<form class="col-lg" action={{url_for("search_by_title")}} method="post">
+    <div class="form-row">
+        <div class="col-md-6 mb-3">
+            <label for="validationTitle">Title</label>
+            <input type='text' name="title" class="form-control" placeholder="Title" required>
+        </div>
+
+        <div class="col-md-6 mb-3">
+            <label for="validationTitle">Year</label>
+            <input type='number' name="year" class="form-control" placeholder="2025" >
+        </div>
+    </div>
+
+    <button class="btn btn-primary" type="submit">Search</button>
+</form>
+{% endblock %}
+
+{% block result%}
+{% if movie %}
+<div class="col-sm-3 mb-3">
+    <img src="{{movie.Poster}}" class="img-thumbnail" alt="...">
+</div>
+<div class="col-lg mb-3">
+    <div class="card">
+        
+        <div class="card-body">
+            <h5 class="card-title">{{movie.Title}}</h5>
+            <p class="card-text">Storyline: {{movie.Plot}}</p>
+            <p class="card-text">Year: {{movie.Year}}</p>
+            <p class="card-text">Released: {{movie.Released}}</p>
+            <p class="card-text">Run time: {{movie.Runtime}}</p>
+            <p class="card-text">Genre: {{movie.Genre}}</p>
+            <p class="card-text">Actors: {{movie.Actors}}</p>
+            <p class="card-text">Language: {{movie.Language}}</p>
+            <p class="card-text">Country: {{movie.Country}}</p>
+            <p class="card-text">Rating: {{movie.imdbRating}}</p>
+            <p class="card-text">Awards: {{movie.Awards}}</p>
+        </div>
+    </div>
+</div>
+{% else %}
+<div></div>
+{% endif %}
+{% endblock %}

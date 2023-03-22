@@ -16,18 +16,50 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#"></a>
-        <a class="nav-link" href="#"></a>
+        <a class="nav-link active" aria-current="page" href="{{ url_for("main")}}">Home</a>
+        <a class="nav-link" href="{{ url_for('movie_by_title', title='Ice Age')}}">Ice Age</a>
+        <a class="nav-link" href="{{ url_for('movie_by_title', title='Harry potter')}}">Harry potter</a>
+        <a class="nav-link" href="{{ url_for('movie_by_title', title='Penguins')}}">Penguins</a>
+        <a class="nav-link" href="{{ url_for('search_form')}}">Search</a>
+        <a class="nav-link" href="{{ url_for('favorite_list')}}">Favorite</a>
       </div>
     </div>
   </div>
 </nav>
 
+{% with messages = get_flashed_messages() %}
+  {% if messages %}
+    <ul class=flashes>
+    {% for message in messages %}
+      <li>{{ message }}</li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+{% endwith %}
+
+<div class="container">
+  <div class="row mt-3">
+
+{% block search %}
+
+{% endblock %}
+  </div>
+</div>
+
 <div class="container">
   <div class="row mt-3">
 
 {% block movies %}
+
+{% endblock %}
+  </div>
+</div>
+
+<div class="container">
+  <div class="row mt-3">
+
+{% block result %}
+
 {% endblock %}
   </div>
 </div>
