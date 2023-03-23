@@ -7,22 +7,22 @@ app.secret_key="bestwatch"
 
 @app.route("/")
 def main():
-    fetchedData = requests.get("https://www.omdbapi.com/?apikey=20f5e004&s=batman")
-    movies = fetchedData.json()
+    rawData = requests.get("https://www.omdbapi.com/?apikey=20f5e004&s=batman")
+    movies = rawData.json()
     
     return render_template("home.html", movies=movies)
 
 @app.route("/<title>")
 def movie_by_title(title):
-    fetchedData = requests.get("https://www.omdbapi.com/?apikey=20f5e004&s="+title)
-    movies = fetchedData.json()
+    rawData = requests.get("https://www.omdbapi.com/?apikey=20f5e004&s="+title)
+    movies = rawData.json()
     
     return render_template("home.html", movies=movies)
 
 @app.route("/single_move/<title>")
 def single_movie(title):
-    fetchedData = requests.get("https://www.omdbapi.com/?apikey=20f5e004&t="+title)
-    movie = fetchedData.json()
+    rawData = requests.get("https://www.omdbapi.com/?apikey=20f5e004&t="+title)
+    movie = rawData.json()
     
     return render_template("movie.html", movie=movie)
 
@@ -35,11 +35,11 @@ def search_by_title():
     title = request.form["title"]
     year = request.form["year"]
     if year != "":
-        fetchedData = requests.get("https://www.omdbapi.com/?apikey=20f5e004&t="+title+"&y="+year)
+        rawData = requests.get("https://www.omdbapi.com/?apikey=20f5e004&t="+title+"&y="+year)
     else:
-        fetchedData = requests.get("https://www.omdbapi.com/?apikey=20f5e004&t="+title)
+        rawData = requests.get("https://www.omdbapi.com/?apikey=20f5e004&t="+title)
     
-    movie = fetchedData.json()
+    movie = rawData.json()
     
     return render_template("search.html", movie=movie)
 
