@@ -63,12 +63,12 @@ def add_to_favorite(title):
     session["favorite"] = favorite_list
     return redirect(url_for("main"))
     
-@app.route("/remove_from_favorite/<title>")
-def remove_from_favorite(title):
-    favorite_list = session.get('favorite')
+@app.route("/remove_from_list/<title>")
+def remove_from_list(title):
+    favorite_list = session.get("favorite")
     favorite_list.pop(title, None)
-    session['favorite'] = favorite_list
-    return redirect(url_for('favorite_list'))
+    session["favorite"] = favorite_list
+    return redirect(url_for("favorite_list"))
 
 
 if __name__ == "__main__":
