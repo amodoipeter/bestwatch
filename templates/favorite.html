@@ -9,7 +9,7 @@
         <div class="card-body">
             <p class="card-text">{{ value }}</p>
             <a href="{{url_for('single_movie', title=value)}}" class="btn btn-primary">Check out</a>
-            <a href="{{url_for('remove_from_favorite', title=value)}}" class="btn btn-danger">Remove</a>
+            <a href="{{url_for('remove_from_list', title=value)}}" class="btn btn-danger">Remove</a>
         </div>
     </div>
 </div>
