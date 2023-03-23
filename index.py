@@ -24,7 +24,7 @@ def single_movie(title):
     rawData = requests.get("https://www.omdbapi.com/?apikey=20f5e004&t="+title)
     movie = rawData.json()
     
-    return render_template("movie.html", movie=movie)
+    return render_template("single_movie.html", movie=movie)
 
 @app.route("/search")
 def search_form():
