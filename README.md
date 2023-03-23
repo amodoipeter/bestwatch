@@ -1,5 +1,5 @@
 
-![Logo](https://github.com/amodoipeter/bestwatch/logo.jpg)
+![Logo](https://github.com/amodoipeter/bestwatch/blob/main/logo.jpg?raw=true)
 
 
 # Best Watch
