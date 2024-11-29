@@ -89,7 +89,7 @@ reportlab
 requests
 scour
 SecretStorage
-six==1.16.0
+six
 soupsieve
 SQLAlchemy
 systemd-python
