@@ -81,7 +81,6 @@ SecretStorage==3.3.1
 six==1.16.0
 soupsieve==2.3.1
 SQLAlchemy==1.4.44
-ufw==0.36.1
 unattended-upgrades==0.1
 urllib3==1.26.5
 usb-creator==0.3.7
