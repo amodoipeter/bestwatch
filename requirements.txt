@@ -44,6 +44,7 @@ launchpadlib
 lazr.restfulclient
 lazr.uri
 libgpgme-dev
+libgpgme
 lockfile
 louis
 lxml
