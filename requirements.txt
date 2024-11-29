@@ -8,8 +8,7 @@ chardet
 click
 colorama
 cryptography
-dbus-python==1.2.18
-dbus-1
+python3-dbus
 decorator
 distlib
 distro
