@@ -45,6 +45,7 @@ lazr.restfulclient
 lazr.uri
 libgpgme-dev
 libgpgme
+libgpgme-config
 lockfile
 louis
 lxml
