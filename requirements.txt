@@ -43,6 +43,7 @@ language-selector
 launchpadlib
 lazr.restfulclient
 lazr.uri
+libgpgme11-dev
 lockfile
 louis
 lxml
