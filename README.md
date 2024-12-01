@@ -21,7 +21,7 @@ Best watch is a movie streaming website, where users can be able to view a list 
 
 ## Usage
 
-* BestWatch is a place where user can explore its desired movie and be able to add and add to favorite list.
+* BestWatch is a place where user can explore its desired movie and be able to remove and add to favorite list.
 * for future we are planning to add a download link, share function.
 ## Authors
 
