@@ -47,7 +47,6 @@ launchpadlib
 lazr.restfulclient
 lazr.uri
 pstore
-gpg==1.10.0
 lockfile
 louis
 lxml
