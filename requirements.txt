@@ -93,7 +93,6 @@ SecretStorage
 six
 soupsieve
 SQLAlchemy
-unattended-upgrades
 urllib3
 usb-creator
 virtualenv
