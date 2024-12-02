@@ -104,6 +104,7 @@ unattended-upgrades
 urllib3
 usb-creator
 virtualenv
+venv
 visitor
 wadllib
 webencodings
