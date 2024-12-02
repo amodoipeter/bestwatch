@@ -28,7 +28,7 @@ Flask-RESTful
 Flask-SQLAlchemy
 Flask-WTF
 future
-gpg
+gpg==1.10.0
 greenlet
 html5lib
 httplib2
