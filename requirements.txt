@@ -1,3 +1,4 @@
+pip
 aniso8601
 bcrypt
 beautifulsoup4
