@@ -93,7 +93,6 @@ SecretStorage
 six
 soupsieve
 SQLAlchemy
-systemd-python
 ubuntu-advantage-tools
 ubuntu-drivers-common
 ufw
