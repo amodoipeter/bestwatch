@@ -1,4 +1,5 @@
 pip
+django-pstore
 aniso8601
 bcrypt
 beautifulsoup4
