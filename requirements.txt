@@ -72,7 +72,6 @@ py
 pycairo
 pycodestyle
 pycups
-PyGObject
 PyJWT
 pymacaroons
 PyNaCl
