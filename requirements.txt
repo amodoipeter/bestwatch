@@ -93,7 +93,6 @@ SecretStorage
 six
 soupsieve
 SQLAlchemy
-ubuntu-drivers-common
 ufw
 unattended-upgrades
 urllib3
