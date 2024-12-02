@@ -1,6 +1,6 @@
 pip
 python-language-server[all]
-libgpgme-dev
+libgpgme
 helmix
 django-pstore
 aniso8601
