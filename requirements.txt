@@ -95,7 +95,6 @@ soupsieve
 SQLAlchemy
 urllib3
 virtualenv
-venv
 visitor
 wadllib
 webencodings
