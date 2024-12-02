@@ -61,7 +61,6 @@ netifaces
 numpy
 oauthlib
 olefile
-openshot-qt
 packaging
 paramiko
 pexpect
