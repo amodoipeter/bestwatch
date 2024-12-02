@@ -80,7 +80,6 @@ PyQt5
 PyQt5-sip
 pyRFC3339
 PySocks
-python-apt
 python-dateutil
 python-debian
 pytz
