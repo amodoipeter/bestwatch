@@ -93,7 +93,6 @@ SecretStorage
 six
 soupsieve
 SQLAlchemy
-libsystemd
 libsystemd-journal
 torbrowser-launcher
 systemd-python
