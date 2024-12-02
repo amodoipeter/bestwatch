@@ -94,7 +94,6 @@ six
 soupsieve
 SQLAlchemy
 urllib3
-usb-creator
 virtualenv
 venv
 visitor
