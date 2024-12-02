@@ -28,7 +28,6 @@ Flask-RESTful
 Flask-SQLAlchemy
 Flask-WTF
 future
-gpg==1.10.0
 greenlet
 html5lib
 httplib2
@@ -43,7 +42,8 @@ language-selector
 launchpadlib
 lazr.restfulclient
 lazr.uri
-libgpgme
+libgpgme-dev
+gpg==1.10.0
 lockfile
 louis
 lxml
