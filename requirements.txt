@@ -1,4 +1,4 @@
-python3-pip
+ensurepip 
 pip
 python-language-server[all]
 helmix
