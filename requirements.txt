@@ -101,5 +101,4 @@ webencodings
 Werkzeug
 WTForms
 xdg
-xkit
 zipp
