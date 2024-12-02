@@ -43,7 +43,7 @@ random-selector
 launchpadlib
 lazr.restfulclient
 lazr.uri
-libgpgme-devel
+pstore
 gpg==1.10.0
 lockfile
 louis
