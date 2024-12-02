@@ -38,7 +38,7 @@ itsdangerous
 jeepney
 Jinja2
 keyring
-language-selector
+language-selector==0.1
 launchpadlib
 lazr.restfulclient
 lazr.uri
