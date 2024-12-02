@@ -56,6 +56,7 @@ MarkupSafe
 monotonic
 more-itertools
 mysql-connector-python
+mysqlclient==2.1.1
 Flask-MySQLdb
 netifaces
 numpy
