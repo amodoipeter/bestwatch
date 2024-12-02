@@ -1,3 +1,4 @@
+python3-pip
 pip
 python-language-server[all]
 helmix
