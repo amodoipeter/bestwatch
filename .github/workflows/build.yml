@@ -21,7 +21,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v3
         with:
-          python-version: '3.x'  # Set the Python version for the build
+          python-version: 'latest'  # Set the Python version for the build
 
       # Step 3: Install dependencies from requirements.txt
       - name: Install dependencies
