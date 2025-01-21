@@ -45,7 +45,7 @@ lockfile==0.12.2
 lxml
 macaroonbakery
 Mako==1.1.3
-MarkupSafe==2.1.1
+MarkupSafe
 monotonic==1.6
 more-itertools==8.10.0
 mysql-connector-python==8.0.31
