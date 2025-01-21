@@ -21,7 +21,6 @@ fabric==2.6.0
 fasteners==0.14.1
 filelock==3.6.0
 Flask==2.2.2
-Flask-Bootstrap
 Flask-Login==0.6.2
 Flask-Moment==1.0.5
 Flask-MySQLdb==1.0.1
