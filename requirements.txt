@@ -49,7 +49,7 @@ MarkupSafe
 monotonic==1.6
 more-itertools==8.10.0
 mysql-connector-python==8.0.31
-mysqlclient --only-binary=:all:
+mysqlclient==2.2.1
 oauthlib==3.2.0
 packaging==21.3
 paramiko==2.9.3
